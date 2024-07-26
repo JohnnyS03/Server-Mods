@@ -1,0 +1,105 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.wood_type]
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.wood_type.iceandfire]
+			dreadwood = true
+
+		[types.wood_type.eidolon]
+			illwood = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+		[types.wood_type.gamma_beasts]
+			red_maple = true
+			palm_tree = true
+
+		[types.wood_type.forbidden_arcanus]
+			fungyss = true
+			aurum = true
+			edelwood = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			green_archwood = true
+			purple_archwood = true
+			red_archwood = true
+
+		[types.leaves_type.rpgsmw]
+			nephris = true
+
+		[types.leaves_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.leaves_type.dynamictrees]
+			spruce = true
+			oak_undergrowth = true
+			oak = true
+			mangrove = true
+			jungle_undergrowth = true
+			jungle = true
+			flowering_azalea = true
+			dark_oak = true
+			cherry = true
+			birch = true
+			azalea = true
+			acacia = true
+
+		[types.leaves_type.eidolon]
+			illwood = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.gamma_beasts]
+			red_maple = true
+			palm_tree = true
+
+		[types.leaves_type.forbidden_arcanus]
+			aurum = true
+			nuggety_aurum = true
+
+#Disables specific entries
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.handcrafted]
+			counter = true
+			corner_trim = true
+			fancy_bed = true
+			desk = true
+			couch = true
+			shelf = true
+			nightstand = true
+			table = true
+			chair = true
+			drawer = true
+			cupboard = true
+			pillar_trim = true
+			dining_bench = true
+			side_table = true
+			bench = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
